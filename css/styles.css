@@ -1,19 +1,16 @@
 body {
   margin: 0;
+  background-color: #D6E2F0;
   text-align: center;
   align-items: center;
   font-family: 'Outfit', sans-serif;
 }
 
-.background {
-  background-color: #D6E2F0;
-  padding: 200px;
-  margin: auto;
-}
-
 .middleground {
   background-color: white;
   border-radius: 15px;
+  position: relative;
+  top: 12.5rem;
   width: 330px;
   height: 500px;
   margin: auto;
@@ -43,6 +40,8 @@ body {
 
 .attribution {
   font-size: 11px;
+  position: relative;
+  top: 12.5rem;
   color: #1F3251;
 }
 
