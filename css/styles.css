@@ -9,11 +9,9 @@ body {
 .middleground {
   background-color: white;
   border-radius: 15px;
-  position: relative;
-  top: 12.5rem;
   width: 330px;
   height: 500px;
-  margin: auto;
+  margin: 12% auto 0 auto;
 }
 
 .qrCode {
@@ -40,8 +38,6 @@ body {
 
 .attribution {
   font-size: 11px;
-  position: relative;
-  top: 12.5rem;
   color: #1F3251;
 }
 
