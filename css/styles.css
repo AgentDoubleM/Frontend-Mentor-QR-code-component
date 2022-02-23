@@ -22,7 +22,7 @@ body {
   background-color: white;
   border-radius: 15px;
   width: 330px;
-  height: 500px;
+  height: 510px;
   margin: auto;
 }
 
@@ -36,18 +36,20 @@ body {
 
 .text {
   padding: 10px 40px 30px 40px;
-  font-size: 15px;
 }
 
 .paragraph1 {
   font-weight: 700;
   font-size: 22px;
-  margin-bottom: 0;
+  line-height: normal;
+  margin-top: 24px;
+  margin-bottom: 16px;
   color: #1F3251;
 }
 
 .paragraph2 {
   color: #7B879D;
+  font-size: 15px;
 }
 
 .attribution {
