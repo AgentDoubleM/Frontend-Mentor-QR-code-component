@@ -6,12 +6,24 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
+@media screen and (min-width: 375px){
+  .container {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .container {
+    margin-top: 50px;
+  }
+}
+
 .middleground {
   background-color: white;
   border-radius: 15px;
   width: 330px;
   height: 500px;
-  margin: 12% auto 0 auto;
+  margin: auto;
 }
 
 .qrCode {
@@ -24,11 +36,13 @@ body {
 
 .text {
   padding: 10px 40px 30px 40px;
+  font-size: 15px;
 }
 
 .paragraph1 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
+  margin-bottom: 0;
   color: #1F3251;
 }
 
